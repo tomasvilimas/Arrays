@@ -39,9 +39,36 @@ else if (print("Svoris per didelis"));
 
 print("<br>");
 
-print(sort($arejus));
 
 
+arsort($arejus);
+
+print_r ($arejus);
+
+print("<br>");
+
+
+
+rsort($arejus);
+
+print_r ($arejus);
+
+print("<br>");
+
+
+
+asort($arejus);
+
+print_r ($arejus);
+
+print("<br>");
+
+
+ksort($arejus);
+
+print_r ($arejus);
+
+print("<br>");
 
 print("</pre>");
 
